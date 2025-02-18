@@ -42,6 +42,7 @@ out <- controlR(X, Z, grid_u=seq(0,1, length.out=40),
                    ckertype = "epanechnikov" 
 )
 
+# test
 # out$V = usual Imbens–Newey control
 # out$R = optimally rearranged control
 cat("Summary of V:\n")
